@@ -1,5 +1,7 @@
 # OpsNow MCP Asset Server
 
+[![smithery badge](https://smithery.ai/badge/@taejulee/opsnow-mcp-asset-server-no-server)](https://smithery.ai/server/@taejulee/opsnow-mcp-asset-server-no-server)
+
 ## 소개
 OpsNow MCP Asset Server는 Model Context Protocol(MCP)을 기반으로 하여 OpsNow의 자산 데이터를 LLM 벤더의 데스크톱 애플리케이션(예: Claude)에 제공하는 서버입니다.
 
@@ -34,6 +36,15 @@ graph LR
 
 ## 설치 방법
 
+### Installing via Smithery
+
+To install opsnow-mcp-asset-server-no-server for Claude Desktop automatically via [Smithery](https://smithery.ai/server/@taejulee/opsnow-mcp-asset-server-no-server):
+
+```bash
+npx -y @smithery/cli install @taejulee/opsnow-mcp-asset-server-no-server --client claude
+```
+
+### Manual Installation
 ```bash
 # 저장소 클론
 git clone [repository-url]
