@@ -1,0 +1,413 @@
+{
+    "AWS": {
+        "result": [
+            {
+                "Option": {
+                    "id": "awsstatus",
+                    "valueField": "cnt",
+                    "titleField": "value",
+                    "colorField": "color",
+                    "labelField": "",
+                    "labelValue": "34",
+                    "labelUnit": "instances",
+                    "labelColorField": "",
+                    "totalInstance": "",
+                    "chartLabel": "STATUS"
+                },
+                "Data": [
+                    {
+                        "section": "status",
+                        "cnt": "27",
+                        "value": "running"
+                    },
+                    {
+                        "section": "status",
+                        "cnt": "4",
+                        "value": "terminated"
+                    },
+                    {
+                        "section": "status",
+                        "cnt": "3",
+                        "value": "stopped"
+                    }
+                ],
+                "chartCntData": null
+            },
+            {
+                "Option": {
+                    "id": "awsregion",
+                    "valueField": "cnt",
+                    "titleField": "value",
+                    "colorField": "color",
+                    "labelField": "",
+                    "labelValue": "2",
+                    "labelUnit": "regions",
+                    "labelColorField": "",
+                    "totalInstance": "34",
+                    "chartLabel": "REGIONS"
+                },
+                "Data": [
+                    {
+                        "section": "region",
+                        "cnt": "30",
+                        "value": "Asia Pacific (Seoul)"
+                    },
+                    {
+                        "section": "region",
+                        "cnt": "4",
+                        "value": "Middle East (UAE)"
+                    }
+                ],
+                "chartCntData": null
+            },
+            {
+                "Option": {
+                    "id": "awstype",
+                    "valueField": "cnt",
+                    "titleField": "value",
+                    "colorField": "color",
+                    "labelField": "",
+                    "labelValue": "17",
+                    "labelUnit": "types",
+                    "labelColorField": "",
+                    "totalInstance": "",
+                    "chartLabel": "TYPES"
+                },
+                "Data": [
+                    {
+                        "section": "type",
+                        "cnt": "6",
+                        "value": "m5.16xlarge"
+                    },
+                    {
+                        "section": "type",
+                        "cnt": "4",
+                        "value": "t3.small"
+                    },
+                    {
+                        "section": "type",
+                        "cnt": "3",
+                        "value": "m5a.xlarge"
+                    },
+                    {
+                        "section": "type",
+                        "cnt": "3",
+                        "value": "t3.micro"
+                    },
+                    {
+                        "section": "type",
+                        "cnt": "3",
+                        "value": "m5.large"
+                    },
+                    {
+                        "section": "type",
+                        "cnt": "2",
+                        "value": "r6i.xlarge"
+                    },
+                    {
+                        "section": "type",
+                        "cnt": "2",
+                        "value": "c4.4xlarge"
+                    },
+                    {
+                        "section": "type",
+                        "cnt": "2",
+                        "value": "t3.xlarge"
+                    },
+                    {
+                        "section": "type",
+                        "cnt": "1",
+                        "value": "t3a.small"
+                    },
+                    {
+                        "section": "type",
+                        "cnt": "1",
+                        "value": "m5.8xlarge"
+                    },
+                    {
+                        "section": "type",
+                        "cnt": "1",
+                        "value": "t3.2xlarge"
+                    },
+                    {
+                        "section": "type",
+                        "cnt": "1",
+                        "value": "r6g.medium"
+                    },
+                    {
+                        "section": "type",
+                        "cnt": "1",
+                        "value": "t3a.xlarge"
+                    },
+                    {
+                        "section": "type",
+                        "cnt": "1",
+                        "value": "c5.xlarge"
+                    },
+                    {
+                        "section": "type",
+                        "cnt": "1",
+                        "value": "t4g.large"
+                    },
+                    {
+                        "section": "type",
+                        "cnt": "1",
+                        "value": "c6i.2xlarge"
+                    },
+                    {
+                        "section": "type",
+                        "cnt": "1",
+                        "value": "t4g.medium"
+                    }
+                ],
+                "chartCntData": null
+            }
+        ],
+        "rsrcType": "ec2"
+    },
+    "Azure": {
+        "result": [
+            {
+                "Option": {
+                    "id": "azustatus",
+                    "valueField": "cnt",
+                    "titleField": "value",
+                    "colorField": "color",
+                    "labelField": "",
+                    "labelValue": "90",
+                    "labelUnit": "instances",
+                    "labelColorField": "",
+                    "totalInstance": "",
+                    "chartLabel": "STATUS"
+                },
+                "Data": [
+                    {
+                        "section": "status",
+                        "cnt": "79",
+                        "value": "running"
+                    },
+                    {
+                        "section": "status",
+                        "cnt": "11",
+                        "value": "deallocated"
+                    }
+                ],
+                "chartCntData": null
+            },
+            {
+                "Option": {
+                    "id": "azuregion",
+                    "valueField": "cnt",
+                    "titleField": "value",
+                    "colorField": "color",
+                    "labelField": "",
+                    "labelValue": "1",
+                    "labelUnit": "region",
+                    "labelColorField": "",
+                    "totalInstance": "90",
+                    "chartLabel": "REGIONS"
+                },
+                "Data": [
+                    {
+                        "section": "region",
+                        "cnt": "90",
+                        "value": "Korea Central"
+                    }
+                ],
+                "chartCntData": null
+            },
+            {
+                "Option": {
+                    "id": "azutype",
+                    "valueField": "cnt",
+                    "titleField": "value",
+                    "colorField": "color",
+                    "labelField": "",
+                    "labelValue": "22",
+                    "labelUnit": "types",
+                    "labelColorField": "",
+                    "totalInstance": "",
+                    "chartLabel": "TYPES"
+                },
+                "Data": [
+                    {
+                        "section": "type",
+                        "cnt": "12",
+                        "value": "Standard_D2s_v5"
+                    },
+                    {
+                        "section": "type",
+                        "cnt": "11",
+                        "value": "Standard_F4s_v2"
+                    },
+                    {
+                        "section": "type",
+                        "cnt": "9",
+                        "value": "Standard_D4s_v3"
+                    },
+                    {
+                        "section": "type",
+                        "cnt": "7",
+                        "value": "Standard_D4s_v5"
+                    },
+                    {
+                        "section": "type",
+                        "cnt": "7",
+                        "value": "Standard_F8s_v2"
+                    },
+                    {
+                        "section": "type",
+                        "cnt": "6",
+                        "value": "Standard_B1s"
+                    },
+                    {
+                        "section": "type",
+                        "cnt": "6",
+                        "value": "Standard_F4s"
+                    },
+                    {
+                        "section": "type",
+                        "cnt": "4",
+                        "value": "Standard_DS1_v2"
+                    },
+                    {
+                        "section": "type",
+                        "cnt": "4",
+                        "value": "Standard_F2s_v2"
+                    },
+                    {
+                        "section": "type",
+                        "cnt": "4",
+                        "value": "Standard_F8s"
+                    },
+                    {
+                        "section": "type",
+                        "cnt": "3",
+                        "value": "Standard_D8s_v5"
+                    },
+                    {
+                        "section": "type",
+                        "cnt": "3",
+                        "value": "Standard_D2s_v3"
+                    },
+                    {
+                        "section": "type",
+                        "cnt": "3",
+                        "value": "Standard_D2ads_v5"
+                    },
+                    {
+                        "section": "type",
+                        "cnt": "2",
+                        "value": "Standard_D8s_v3"
+                    },
+                    {
+                        "section": "type",
+                        "cnt": "2",
+                        "value": "Standard_DS3_v2"
+                    },
+                    {
+                        "section": "type",
+                        "cnt": "1",
+                        "value": "Standard_B1ls"
+                    },
+                    {
+                        "section": "type",
+                        "cnt": "1",
+                        "value": "Standard_B4ms"
+                    },
+                    {
+                        "section": "type",
+                        "cnt": "1",
+                        "value": "Standard_B2ms"
+                    },
+                    {
+                        "section": "type",
+                        "cnt": "1",
+                        "value": "Standard_B2s"
+                    },
+                    {
+                        "section": "type",
+                        "cnt": "1",
+                        "value": "Standard_D4s_v4"
+                    },
+                    {
+                        "section": "type",
+                        "cnt": "1",
+                        "value": "Standard_D8s_v4"
+                    },
+                    {
+                        "section": "type",
+                        "cnt": "1",
+                        "value": "Standard_F2s"
+                    }
+                ],
+                "chartCntData": null
+            }
+        ],
+        "rsrcType": "Microsoft.Compute/virtualMachines"
+    },
+    "GCP": {
+        "result": [
+            {
+                "Option": {
+                    "id": "gcpstatus",
+                    "valueField": "cnt",
+                    "titleField": "value",
+                    "colorField": "color",
+                    "labelField": "",
+                    "labelValue": "0",
+                    "labelUnit": "instance",
+                    "labelColorField": "",
+                    "totalInstance": "",
+                    "chartLabel": "STATUS"
+                },
+                "Data": [],
+                "chartCntData": null
+            },
+            {
+                "Option": {
+                    "id": "gcpregion",
+                    "valueField": "cnt",
+                    "titleField": "value",
+                    "colorField": "color",
+                    "labelField": "",
+                    "labelValue": "2",
+                    "labelUnit": "regions",
+                    "labelColorField": "",
+                    "totalInstance": "16",
+                    "chartLabel": "REGIONS"
+                },
+                "Data": [
+                    {
+                        "section": "region",
+                        "cnt": "14",
+                        "value": "US"
+                    },
+                    {
+                        "section": "region",
+                        "cnt": "2",
+                        "value": "Seoul"
+                    }
+                ],
+                "chartCntData": null
+            },
+            {
+                "Option": {
+                    "id": "gcptype",
+                    "valueField": "cnt",
+                    "titleField": "value",
+                    "colorField": "color",
+                    "labelField": "",
+                    "labelValue": "0",
+                    "labelUnit": "type",
+                    "labelColorField": "",
+                    "totalInstance": "",
+                    "chartLabel": "TYPES"
+                },
+                "Data": [],
+                "chartCntData": null
+            }
+        ],
+        "rsrcType": "bigquery#dataset"
+    }
+}
