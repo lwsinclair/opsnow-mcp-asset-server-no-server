@@ -1,3 +1,5 @@
+[![MseeP.ai Security Assessment Badge](https://mseep.net/pr/taejulee-opsnow-mcp-asset-server-no-server-badge.png)](https://mseep.ai/app/taejulee-opsnow-mcp-asset-server-no-server)
+
 # OpsNow MCP Asset Server
 
 ## 소개
